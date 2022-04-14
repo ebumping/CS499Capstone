@@ -6,7 +6,7 @@ In a team or individual environment when reviewing code (someone else’s or you
 
 - Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts 
 
-I would like to highlight my code review (review: https://youtu.be/WiMjnybejEk, proposed enhancements: https://youtu.be/4Wp_lF4yWx8) to demonstrate strategies for effectively communicating important information to stakeholders in a concise manor.  Best practices suggest not only considering your audience when presenting issues or prospective revisions.  One should also be mindful of burnout, as reviewing too much in one sitting makes you more likely to overlook vulnerabilities.  For each artifact, I cover structure, documentation, variables, arithmetic operations, loops & branches, and defensive programming.  Each component has multiple aspects that are explored in accordance with documentation which implements a standard (and standards are important in delivering a consistent product to clients).
+I would like to highlight my code review ([Code Review](https://youtu.be/WiMjnybejEk), [Proposed Enhancements](ttps://youtu.be/4Wp_lF4yWx8))to demonstrate strategies for effectively communicating important information to stakeholders in a concise manor.  Best practices suggest not only considering your audience when presenting issues or prospective revisions.  One should also be mindful of burnout, as reviewing too much in one sitting makes you more likely to overlook vulnerabilities.  For each artifact, I cover structure, documentation, variables, arithmetic operations, loops & branches, and defensive programming.  Each component has multiple aspects that are explored in accordance with documentation which implements a standard (and standards are important in delivering a consistent product to clients).
 
 - Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms) 
 
@@ -282,8 +282,7 @@ public class Investments {
 
 The second artifact I would like to highlight here is a full-stack application developed specifically to implement a cloud Mongo database that interacts with a react.js-based front end.  Initial planned enhancements were flawed in scope, and technically unachievable so I decided to build an entirely new full-stack application
 
-https://github.com/ebumping/CS499Capstone/tree/main/Capstone: 
-`the_wired_volumes.zip.001- the_wired_volumes.zip.008`  
+[the_wired_volumes.zip.001- the_wired_volumes.zip.008](https://github.com/ebumping/CS499Capstone/tree/main/Capstone) 
 
 It currently functions as a simple user management system; however, this artifact was created with modularity in mind and could realistically hook into a wide range of applications.  The backend is run by a python module which contains much of the functional implementation of CRUD operations for our database, as well as handling the connection.
 
