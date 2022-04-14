@@ -1,4 +1,6 @@
-# For this self-assessment, I will be addressing several course outcomes that illustrate professional standards I have accomplished in the field of Computer Science.  
+# Self-assessment
+
+I will be addressing several course outcomes that illustrate professional standards I have accomplished in the field of Computer Science.  
 
 - Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science 
 
@@ -9,6 +11,7 @@ In a team or individual environment when reviewing code (someone else’s or you
 I would like to highlight my code review ([Code Review](https://youtu.be/WiMjnybejEk), [Proposed Enhancements](ttps://youtu.be/4Wp_lF4yWx8))to demonstrate strategies for effectively communicating important information to stakeholders in a concise manor.  Best practices suggest not only considering your audience when presenting issues or prospective revisions.  One should also be mindful of burnout, as reviewing too much in one sitting makes you more likely to overlook vulnerabilities.  For each artifact, I cover structure, documentation, variables, arithmetic operations, loops & branches, and defensive programming.  Each component has multiple aspects that are explored in accordance with documentation which implements a standard (and standards are important in delivering a consistent product to clients).
 
 - Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms) 
+The [Encrypt_Decrypt.zip](https://github.com/ebumping/CS499Capstone/blob/main/Capstone/Encrypt_Decrypt.zip) project highlights a smaller scale reconstruction/re-development approach to algorithmic principles.  In this application, I had originally intended to modify an existing application to be able to handle batch files.  Early into this endeavor I realized that the fundamental issues meant that working with the original may just be counter-intuitive.  The original artifact would simply act on a file whose name was hardcoded into the source code.  I decided to make an encryption application capable of taking user specifications.  The new version of the application allows users increased flexibility and allows users more intuitive control in the process.
 
 
 - Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database) 
