@@ -1,21 +1,21 @@
-#For this self-assessment, I will be addressing several course outcomes that illustrate professional standards I have accomplished in the field of Computer Science.  
+# For this self-assessment, I will be addressing several course outcomes that illustrate professional standards I have accomplished in the field of Computer Science.  
 
--Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science 
+- Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science 
 
 In a team or individual environment when reviewing code (someone else’s or your own) it is important to be able to objectively evaluate and propose revisions before release. Code reviews are an important aspect that allow developers to better understand the weaknesses in functionalities within their software.  Code reviews make our product more robust, consistent, and sustainable.  They also offer us potential third-party insight that can often lead to vulnerability fixes as well as optimizations that we may have missed personally/the first time around.
 
--Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts 
+- Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts 
 
 I would like to highlight my code review (review: https://youtu.be/WiMjnybejEk, proposed enhancements: https://youtu.be/4Wp_lF4yWx8) to demonstrate strategies for effectively communicating important information to stakeholders in a concise manor.  Best practices suggest not only considering your audience when presenting issues or prospective revisions.  One should also be mindful of burnout, as reviewing too much in one sitting makes you more likely to overlook vulnerabilities.  For each artifact, I cover structure, documentation, variables, arithmetic operations, loops & branches, and defensive programming.  Each component has multiple aspects that are explored in accordance with documentation which implements a standard (and standards are important in delivering a consistent product to clients).
 
--Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms) 
+- Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms) 
 
 
--Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database) 
+- Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database) 
 
 The first artifact highlighted here was initially a c++ program created from a reverse-engineered binary file.  To highlight my strengths in data structures and algorithms I decided to then convert this c++ program into a java program to further demonstrate my ability to break down, re-purpose and re-invent software projects. Through the conversion process there were a few minor snags, but to ensure security standards and Java best practices, new try/catch blocks had to be implemented.  
 
-C++:
+### C++:
 ```
 #include <iostream>
 #include <string>
@@ -157,7 +157,7 @@ int main() {
 
 }
 ```
-Java:
+### Java:
 ```
 package investments;
 
@@ -287,7 +287,7 @@ https://github.com/ebumping/CS499Capstone/tree/main/Capstone:
 
 It currently functions as a simple user management system; however, this artifact was created with modularity in mind and could realistically hook into a wide range of applications.  The backend is run by a python module which contains much of the functional implementation of CRUD operations for our database, as well as handling the connection.
 
-##Backend
+### Backend
 ```
 from flask import Flask, render_template, request, jsonify
 from pymongo import MongoClient
@@ -399,13 +399,13 @@ if __name__ == '__main__':
 	app.run()
 ```
 
--Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources 
+- Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources 
 
 I would like to return to the `Investments` application first.  Even beginning with the c++ application, each function and input is explicitly designed to handle vulnerabilities.  In modern software development, we cannot afford to let security be an afterthought.  Each stage of the development lifecycle and each version must be designed and tested with security in mind.  This is illustrated further in the converted java program by utilizing try/catch blocks to handle exceptions. 
 
 In addition, I developed an entire artifact around encrypting/decrypting files.  Originally, I had a previous encryption related program that I had intended on working with but decided that certain fundamental problems with the design of the original meant that I should rebuild from the ground up.  I wanted to give the new application more flexibility for the user, as most of the original relied on hardcoded values and did not provide users much independent value.  In a world with so much sensitive data, we must do our best to protect it.
 
-###Encrypt.cpp
+### Encrypt.cpp
 ```
 int main()
 {
@@ -452,7 +452,7 @@ int main()
     return 0;
 }
 ```
-###Decrypt.cpp
+### Decrypt.cpp
 ```
 int main()
 {
