@@ -17,7 +17,7 @@ The [Encrypt_Decrypt.zip](https://github.com/ebumping/CS499Capstone/blob/main/Ca
 
 - Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database) 
 
-The first artifact highlighted here was initially a c++ program created from a reverse-engineered binary file.  To highlight my strengths in data structures and algorithms I decided to then convert this c++ program into a java program to further demonstrate my ability to break down, re-purpose and re-invent software projects. Through the conversion process there were a few minor snags, but to ensure security standards and Java best practices, new try/catch blocks had to be implemented.  
+The first artifact highlighted here was initially a c++ program created from a reverse-engineered binary file.  To highlight my strengths in software engineering/design I decided to then convert this c++ program into a java program to further demonstrate my ability to break down, re-purpose and re-invent software projects. Through the conversion process there were a few minor snags, but to ensure security standards and Java best practices, new try/catch blocks had to be implemented.  
 
 ### C++:
 ```
