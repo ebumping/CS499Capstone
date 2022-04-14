@@ -280,7 +280,12 @@ public class Investments {
 	}
 ```
 
-The second artifact I would like to highlight here is a full-stack application developed specifically to implement a cloud Mongo database that interacts with a react.js-based front end.  Initial planned enhancements were flawed in scope, and technically unachievable so I decided to build an entirely new full-stack application(https://github.com/ebumping/CS499Capstone/tree/main/Capstone: `the_wired_volumes.zip.001- the_wired_volumes.zip.008`).  It currently functions as a simple user management system; however, this artifact was created with modularity in mind and could realistically hook into a wide range of applications.  The backend is run by a python module which contains much of the functional implementation of CRUD operations for our database, as well as handling the connection.
+The second artifact I would like to highlight here is a full-stack application developed specifically to implement a cloud Mongo database that interacts with a react.js-based front end.  Initial planned enhancements were flawed in scope, and technically unachievable so I decided to build an entirely new full-stack application
+
+https://github.com/ebumping/CS499Capstone/tree/main/Capstone: 
+`the_wired_volumes.zip.001- the_wired_volumes.zip.008`  
+
+It currently functions as a simple user management system; however, this artifact was created with modularity in mind and could realistically hook into a wide range of applications.  The backend is run by a python module which contains much of the functional implementation of CRUD operations for our database, as well as handling the connection.
 
 ##Backend
 ```
